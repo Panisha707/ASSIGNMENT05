@@ -39,8 +39,8 @@ plt.text(2.2,0.2,'F(2,0)')
 plt.plot(0,0,'o',label='vertex')
 plt.text(0,0,' C(0,0)')
 
-M = np.array([2,7])
-N = np.array([2,-7])
+M = np.array([2,4])
+N = np.array([2,-4])
 #Latus rectum
 x_MN = line_gen(M,N)
 plt.plot(x_MN[0,:],x_MN[1,:],label='$Latus rectum$')
